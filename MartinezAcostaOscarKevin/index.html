@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página de Aprendizaje</title>
+  <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Mi Página</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="vistas/css.html">CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vistas/js.html">JavaScript</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vistas/bootstrap.html">Bootstrap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vistas/informacion.html">Aprende JavaScript, CSS y Bootstrap</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel de imágenes -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/imagen1.webp" class="d-block w-100" alt="Imagen 1">
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagen2.webp" class="d-block w-100" alt="Imagen 2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagen3.png" class="d-block w-100" alt="Imagen 3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </a>
+  </div>
+
+  <!-- Información personal -->
+  <div class="container mt-5">
+    <br>
+    <h1>Información Personal</h1>
+    <br>
+    <h3>Nombre completo: Oscar Kevin Martinez Acosta</h3>
+    <h3>Matrícula: 20223tn064</h3>
+    <h3>Correo electrónico: 20223tn064@utez.edu.mx</h3>
+  </div>
+<br>
+<br>
+  <script src="JS/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
